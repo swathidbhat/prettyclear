@@ -56,10 +56,12 @@ const Hero = () => {
 
           {/* CTA */}
           <div className="animate-fade-up-delay-3 flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Button variant="hero" size="xl">
-              Request Early Access
-              <ArrowRight className="ml-2 h-5 w-5" />
-            </Button>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScCymxz2WG5B7rU0yIIvuMpY4jNHA6Izu1aet7qYkL55kwTNw/viewform?usp=dialog" target="_blank" rel="noopener noreferrer">
+              <Button variant="hero" size="xl">
+                Request Early Access
+                <ArrowRight className="ml-2 h-5 w-5" />
+              </Button>
+            </a>
             <Button variant="outline" size="lg" className="group">
               <span>See how it works</span>
               <span className="ml-2 text-primary group-hover:translate-x-1 transition-transform">→</span>
