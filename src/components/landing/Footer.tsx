@@ -8,10 +8,12 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row items-center justify-between gap-8">
           {/* Logo */}
           <div className="flex items-center gap-3">
-            <div className="relative w-8 h-8 rounded-lg bg-gradient-to-br from-primary to-accent flex items-center justify-center">
-              <span className="text-primary-foreground font-display font-bold text-xs">PC</span>
+            <div className="relative w-8 h-8 rounded-lg bg-gradient-to-br from-primary to-primary/70 flex items-center justify-center">
+              <span className="text-primary-foreground font-display font-bold text-[10px]">PR</span>
             </div>
-            <span className="font-display font-medium">Pretty Clear</span>
+            <span className="font-display font-medium">
+              <span className="font-bold">PR</span>etty Clear
+            </span>
           </div>
 
           {/* Links */}
@@ -23,7 +25,7 @@ const Footer = () => {
 
           {/* Copyright */}
           <p className="text-sm text-muted-foreground font-mono">
-            © {new Date().getFullYear()} Pretty Clear
+            © {new Date().getFullYear()} PRetty Clear
           </p>
         </div>
       </div>
