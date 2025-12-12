@@ -8,7 +8,7 @@ const features = [
   },
   {
     icon: Zap,
-    title: "Understand product impact",
+    title: "Save engineering time",
     description: "Focus on what matters for users, not implementation details.",
   },
   {
