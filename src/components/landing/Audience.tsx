@@ -10,7 +10,7 @@ const audiences = [
   },
   {
     icon: Users,
-    title: "Product Leaders",
+    title: "Business Leaders",
     description: "Oversee multiple teams with confidence.",
     stat: "5+",
     statLabel: "teams at once",
