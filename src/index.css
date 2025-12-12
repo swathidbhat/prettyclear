@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Syne:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&family=Unbounded:wght@400;500;600;700;800;900&family=IBM+Plex+Mono:wght@400;500&display=swap');
 
 @layer base {
   :root {
@@ -48,9 +48,9 @@
     --shadow-glow-soft: 0 0 30px hsl(220 80% 65% / 0.25);
     --shadow-card: 0 8px 32px hsl(0 0% 0% / 0.5);
     
-    --font-display: 'Syne', sans-serif;
-    --font-body: 'Outfit', sans-serif;
-    --font-mono: 'Space Mono', monospace;
+    --font-display: 'Unbounded', sans-serif;
+    --font-body: 'DM Sans', sans-serif;
+    --font-mono: 'IBM Plex Mono', monospace;
 
     --sidebar-background: 225 30% 3%;
     --sidebar-foreground: 220 20% 95%;

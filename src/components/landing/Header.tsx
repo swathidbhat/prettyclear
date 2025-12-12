@@ -9,11 +9,13 @@ const Header = () => {
             <div className="flex items-center justify-between h-16">
               {/* Logo */}
               <div className="flex items-center gap-3">
-                <div className="relative w-9 h-9 rounded-xl bg-gradient-to-br from-primary to-accent flex items-center justify-center">
-                  <span className="text-primary-foreground font-display font-bold text-sm">PC</span>
-                  <div className="absolute inset-0 rounded-xl bg-gradient-to-br from-primary to-accent blur-lg opacity-50" />
-                </div>
-                <span className="font-display font-semibold text-lg tracking-tight">Pretty Clear</span>
+              <div className="relative w-9 h-9 rounded-xl bg-gradient-to-br from-primary to-primary/70 flex items-center justify-center">
+                <span className="text-primary-foreground font-display font-bold text-xs">PR</span>
+                <div className="absolute inset-0 rounded-xl bg-gradient-to-br from-primary to-primary/70 blur-lg opacity-50" />
+              </div>
+              <span className="font-display font-semibold text-lg tracking-tight">
+                <span className="font-bold">PR</span>etty Clear
+              </span>
               </div>
 
               {/* CTA */}
