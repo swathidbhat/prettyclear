@@ -1,6 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Sparkles } from "lucide-react";
-import FloatingElements from "./FloatingElements";
+import { lazy, Suspense } from "react";
+
+const HeroScene = lazy(() => import("./HeroScene"));
 
 const Hero = () => {
   return (
@@ -8,7 +10,11 @@ const Hero = () => {
       {/* Background layers */}
       <div className="absolute inset-0 bg-gradient-hero" />
       <div className="absolute inset-0 bg-gradient-mesh" />
-      <FloatingElements />
+      
+      {/* 3D Scene */}
+      <Suspense fallback={<div className="absolute inset-0 bg-background" />}>
+        <HeroScene />
+      </Suspense>
       
       {/* Grid overlay */}
       <div 
