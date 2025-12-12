@@ -18,7 +18,7 @@ const audiences = [
   {
     icon: Rocket,
     title: "Founders",
-    description: "Get clarity without deep technical dives.",
+    description: "Save engineers' time on shipping. Not endless explanation.",
     stat: "0",
     statLabel: "code required",
   },
