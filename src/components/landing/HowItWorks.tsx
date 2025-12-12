@@ -12,7 +12,7 @@ const steps = [
     icon: MessageSquareText,
     number: "02",
     title: "PMs and leaders get a demo link",
-    description: "What changed, why it matters, and what to watch for.",
+    description: "Agent demos new features and changes.",
     color: "accent",
   },
   {
