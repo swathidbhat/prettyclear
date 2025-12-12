@@ -18,7 +18,7 @@ const steps = [
   {
     icon: MessagesSquare,
     number: "03",
-    title: "You talk to the agent in plain English",
+    title: "Talk to the agent to get a personalized understanding",
     description: "It explains accurately—without code.",
     color: "primary",
   },
