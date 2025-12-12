@@ -5,7 +5,7 @@ const steps = [
     icon: GitPullRequest,
     number: "01",
     title: "A feature ships",
-    description: "The agent reads the pull request.",
+    description: "Our agent analyzes the pull request.",
     color: "primary",
   },
   {
