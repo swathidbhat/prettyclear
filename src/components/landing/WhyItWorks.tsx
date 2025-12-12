@@ -33,9 +33,9 @@ const WhyItWorks = () => {
                 <p className="font-display text-2xl md:text-4xl font-semibold mb-6 leading-relaxed">
                   This isn't a <span className="text-muted-foreground line-through decoration-primary/50">static summary</span>.
                 </p>
-                <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-12 max-w-2xl mx-auto">
-                  It's a <span className="text-foreground font-medium">conversational agent</span> grounded in the actual pull request—so answers stay accurate, contextual, and trustworthy.
-                </p>
+              <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-12 max-w-2xl mx-auto">
+                It's an <span className="text-foreground font-medium">agent that demos new features</span>—and talks to you about it. Grounded in the actual pull request, so answers stay accurate, contextual, and trustworthy.
+              </p>
 
                 {/* Trust pillars */}
                 <div className="flex flex-wrap justify-center gap-6">
