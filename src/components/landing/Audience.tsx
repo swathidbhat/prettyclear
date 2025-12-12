@@ -61,7 +61,7 @@ const Audience = () => {
                 
                 <div className="relative z-10">
                   {/* Icon */}
-                  <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-accent/10 mb-6 group-hover:bg-accent/20 group-hover:glow-purple transition-all duration-300">
+                  <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-accent/10 mb-6 group-hover:bg-accent/20 group-hover:glow-green transition-all duration-300">
                     <audience.icon className="w-7 h-7 text-accent" />
                   </div>
                   
