@@ -9,7 +9,7 @@ const features = [
   {
     icon: Zap,
     title: "Save engineering time",
-    description: "Focus on what matters for users, not implementation details.",
+    description: "Save engineer's time on valuable tasks.",
   },
   {
     icon: MessageCircle,
