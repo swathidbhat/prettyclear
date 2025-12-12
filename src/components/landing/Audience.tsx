@@ -35,11 +35,11 @@ const Audience = () => {
         {/* Section header */}
         <div className="text-center mb-20">
           <div className="flex items-center justify-center gap-4 mb-8">
-            <div className="h-px w-12 bg-gradient-to-r from-transparent to-accent/50" />
-            <p className="text-sm font-mono text-accent tracking-[0.3em] uppercase">
+            <div className="h-px w-12 bg-gradient-to-r from-transparent to-primary/50" />
+            <p className="text-sm font-mono text-primary tracking-[0.3em] uppercase">
               Who It's For
             </p>
-            <div className="h-px w-12 bg-gradient-to-l from-transparent to-accent/50" />
+            <div className="h-px w-12 bg-gradient-to-l from-transparent to-primary/50" />
           </div>
           <h2 className="font-display text-3xl md:text-5xl font-bold tracking-tight">
             Made for
@@ -55,14 +55,14 @@ const Audience = () => {
               className="group relative"
             >
               {/* Card */}
-              <div className="relative h-full p-8 rounded-2xl bg-background border border-border hover:border-accent/30 transition-all duration-500 text-center">
+              <div className="relative h-full p-8 rounded-2xl bg-background border border-border hover:border-primary/30 transition-all duration-500 text-center">
                 {/* Glow */}
-                <div className="absolute inset-0 rounded-2xl bg-accent/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-xl" />
+                <div className="absolute inset-0 rounded-2xl bg-primary/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-xl" />
                 
                 <div className="relative z-10">
                   {/* Icon */}
-                  <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-accent/10 mb-6 group-hover:bg-accent/20 group-hover:glow-green transition-all duration-300">
-                    <audience.icon className="w-7 h-7 text-accent" />
+                  <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-primary/10 mb-6 group-hover:bg-primary/20 group-hover:glow transition-all duration-300">
+                    <audience.icon className="w-7 h-7 text-primary" />
                   </div>
                   
                   {/* Title */}

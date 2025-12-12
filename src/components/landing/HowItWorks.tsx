@@ -69,10 +69,10 @@ const HowItWorks = () => {
                     {/* Icon */}
                     <div className={`mt-4 mb-6 w-14 h-14 rounded-xl flex items-center justify-center transition-all duration-300 ${
                       step.color === 'primary' 
-                        ? 'bg-primary/10 group-hover:bg-primary/20 group-hover:glow-cyan' 
-                        : 'bg-accent/10 group-hover:bg-accent/20 group-hover:glow-green'
+                        ? 'bg-primary/10 group-hover:bg-primary/20 group-hover:glow' 
+                        : 'bg-primary/10 group-hover:bg-primary/20 group-hover:glow-soft'
                     }`}>
-                      <step.icon className={`w-6 h-6 ${step.color === 'primary' ? 'text-primary' : 'text-accent'}`} />
+                      <step.icon className="w-6 h-6 text-primary" />
                     </div>
 
                     {/* Content */}
