@@ -31,7 +31,7 @@ const Problem = () => {
           <p className="text-center text-lg md:text-xl text-muted-foreground leading-relaxed mt-12 max-w-2xl mx-auto">
             Pull requests are written for engineers—
             <br className="hidden md:block" />
-            <span className="text-foreground/80">not for people making product decisions.</span>
+            <span className="text-foreground/80">not for people making business decisions.</span>
           </p>
         </div>
       </div>
